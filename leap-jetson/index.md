@@ -178,7 +178,8 @@ Marquez Aguilar, A. (2026). *leap-jetson: original Leap Motion Controller hand t
 [Apache License 2.0](https://github.com/OomAngel/leap-jetson/blob/main/LICENSE). The hand models are not part of the
 project: you download them yourself, and their licence is unconfirmed (see Limits). Details are in
 [LEGAL.md](https://github.com/OomAngel/leap-jetson/blob/main/docs/LEGAL.md) and
-[THIRD_PARTY_NOTICES.md](https://github.com/OomAngel/leap-jetson/blob/main/THIRD_PARTY_NOTICES.md).
+[THIRD_PARTY_NOTICES.md](https://github.com/OomAngel/leap-jetson/blob/main/THIRD_PARTY_NOTICES.md). This article's text and figures are under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): reuse them with credit.
 
 ## How it was built
 
