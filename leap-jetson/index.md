@@ -139,7 +139,7 @@ USB camera and two models.
 ## Try it yourself
 
 **Without the hardware.** On any PC, using a 4-second, hand-only recording from the
-[v0.1.0 release](https://github.com/OomAngel/leap-jetson/releases/tag/v0.1.0). I ran these steps from a fresh clone
+[latest release](https://github.com/OomAngel/leap-jetson/releases/latest). I ran these steps from a fresh clone
 on a desktop CPU: all 460 frames gave a 3D hand, at 43 fps.
 
 ```bash
@@ -148,7 +148,7 @@ pip install onnxruntime opencv-python-headless numpy
 git clone https://gitlab.freedesktop.org/monado/utilities/hand-tracking-models.git
 git -C hand-tracking-models checkout 37a8a81
 (cd hand-tracking-models && sha256sum -c ../models.sha256)
-curl -LO https://github.com/OomAngel/leap-jetson/releases/download/v0.1.0/leap-jetson-sample-v1.zip
+curl -LO https://github.com/OomAngel/leap-jetson/releases/latest/download/leap-jetson-sample-v1.zip
 unzip leap-jetson-sample-v1.zip
 python3 tracker/live_track.py --backend ort --replay leap-jetson-sample/sample_640x240.raw --every-frame \
     --calib leap-jetson-sample/calibration.bin --models hand-tracking-models --out frames.jsonl
