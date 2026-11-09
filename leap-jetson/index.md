@@ -155,8 +155,30 @@ python3 tracker/live_track.py --backend ort --replay leap-jetson-sample/sample_6
 ```
 
 **With the hardware.** A Leap Motion Controller on firmware 1.7.1 and a Jetson with JetPack 5: the
-[README](https://github.com/OomAngel/leap-jetson#quick-start) has the quick start. Cite it with
-[10.5281/zenodo.24050502](https://doi.org/10.5281/zenodo.24050502).
+[README](https://github.com/OomAngel/leap-jetson#quick-start) has the quick start.
+
+## How to cite it, and the licence
+
+Marquez Aguilar, A. (2026). *leap-jetson: original Leap Motion Controller hand tracking on NVIDIA Jetson GPUs*
+[Computer software]. Zenodo. <https://doi.org/10.5281/zenodo.24050502>
+
+```bibtex
+@software{marquez_aguilar_leap_jetson_2026,
+  author    = {Marquez Aguilar, Angel},
+  title     = {leap-jetson: original Leap Motion Controller hand tracking on NVIDIA Jetson GPUs},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24050502},
+  url       = {https://github.com/OomAngel/leap-jetson},
+  license   = {Apache-2.0}
+}
+```
+
+**Licence.** The code and the sample recording are under the
+[Apache License 2.0](https://github.com/OomAngel/leap-jetson/blob/main/LICENSE). The hand models are not part of the
+project: you download them yourself, and their licence is unconfirmed (see Limits). Details are in
+[LEGAL.md](https://github.com/OomAngel/leap-jetson/blob/main/docs/LEGAL.md) and
+[THIRD_PARTY_NOTICES.md](https://github.com/OomAngel/leap-jetson/blob/main/THIRD_PARTY_NOTICES.md).
 
 ## How it was built
 
